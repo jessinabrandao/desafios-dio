@@ -15,6 +15,4 @@ class car {
 }
 
 const uno = new car ('Fiat', 'Branco', 1/12)
-const distanciaKm = 70
-const preco = 5
-console.log(uno.calcularTrajeto(distanciaKm, preco))
+console.log(uno.calcularTrajeto(70,5))
